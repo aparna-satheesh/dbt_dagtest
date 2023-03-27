@@ -1,0 +1,11 @@
+dbt_sampledev:
+  outputs:
+    dev:
+      catalog: null
+      host: adb-6672695159677553.13.azuredatabricks.net
+      http_path: sql/protocolv1/o/6672695159677553/0323-061752-pwo4ntg9
+      schema: sample
+      threads: 1
+      token: dapi41075024bb44640781f4a5f3da940687
+      type: databricks
+  target: dev
